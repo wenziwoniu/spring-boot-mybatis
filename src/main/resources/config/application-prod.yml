@@ -1,0 +1,6 @@
+info:
+  name: spring-boot-mybatis-prod
+  contact: spring-boot-mybatis-prod
+
+server:
+  port: 8003

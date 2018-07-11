@@ -1,0 +1,6 @@
+info:
+  name: spring-boot-mybatis-test
+  contact: spring-boot-mybatis-test
+
+server:
+  port: 8002

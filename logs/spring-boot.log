@@ -1,0 +1,34 @@
+2018-07-10 20:23:37.357 [restartedMain] INFO  mybatis.SpringBootMyBatisApplication(StartupInfoLogger.java:48) - Starting SpringBootMyBatisApplication on zwwang-PC with PID 7356 (F:\eclipseworkspace\spring-boot-mybatis\target\classes started by zwwang in F:\eclipseworkspace\spring-boot-mybatis)
+2018-07-10 20:23:37.371 [restartedMain] INFO  mybatis.SpringBootMyBatisApplication(SpringApplication.java:597) - The following profiles are active: dev
+2018-07-10 20:23:37.566 [restartedMain] INFO  embedded.AnnotationConfigEmbeddedWebApplicationContext(AbstractApplicationContext.java:583) - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b20afec: startup date [Tue Jul 10 20:23:37 CST 2018]; root of context hierarchy
+2018-07-10 20:23:38.183 [background-preinit] INFO  util.Version(Version.java:30) - HV000001: Hibernate Validator 5.3.6.Final
+2018-07-10 20:23:41.456 [restartedMain] INFO  tomcat.TomcatEmbeddedServletContainer(TomcatEmbeddedServletContainer.java:89) - Tomcat initialized with port(s): 8001 (http)
+2018-07-10 20:23:41.490 [restartedMain] INFO  core.StandardService(DirectJDKLog.java:179) - Starting service [Tomcat]
+2018-07-10 20:23:41.493 [restartedMain] INFO  core.StandardEngine(DirectJDKLog.java:179) - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-10 20:23:41.765 [localhost-startStop-1] INFO  [localhost].[/boot-mybatis](DirectJDKLog.java:179) - Initializing Spring embedded WebApplicationContext
+2018-07-10 20:23:41.766 [localhost-startStop-1] INFO  context.ContextLoader(EmbeddedWebApplicationContext.java:276) - Root WebApplicationContext: initialization completed in 4206 ms
+2018-07-10 20:23:42.033 [localhost-startStop-1] INFO  servlet.ServletRegistrationBean(ServletRegistrationBean.java:190) - Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-10 20:23:42.039 [localhost-startStop-1] INFO  servlet.FilterRegistrationBean(AbstractFilterRegistrationBean.java:258) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-10 20:23:42.040 [localhost-startStop-1] INFO  servlet.FilterRegistrationBean(AbstractFilterRegistrationBean.java:258) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-10 20:23:42.040 [localhost-startStop-1] INFO  servlet.FilterRegistrationBean(AbstractFilterRegistrationBean.java:258) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-10 20:23:42.040 [localhost-startStop-1] INFO  servlet.FilterRegistrationBean(AbstractFilterRegistrationBean.java:258) - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-10 20:23:43.457 [restartedMain] INFO  annotation.RequestMappingHandlerAdapter(RequestMappingHandlerAdapter.java:534) - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b20afec: startup date [Tue Jul 10 20:23:37 CST 2018]; root of context hierarchy
+2018-07-10 20:23:43.570 [restartedMain] INFO  annotation.RequestMappingHandlerMapping(AbstractHandlerMethodMapping.java:543) - Mapped "{[/hello/sayHello]}" onto public java.lang.String com.vivebest.spring.boot.mybatis.controller.HelloWorldController.sayHello(java.lang.String)
+2018-07-10 20:23:43.572 [restartedMain] INFO  annotation.RequestMappingHandlerMapping(AbstractHandlerMethodMapping.java:543) - Mapped "{[/user/queryUser]}" onto public com.vivebest.spring.boot.mybatis.entity.User com.vivebest.spring.boot.mybatis.controller.UserController.queryUser(java.lang.String)
+2018-07-10 20:23:43.576 [restartedMain] INFO  annotation.RequestMappingHandlerMapping(AbstractHandlerMethodMapping.java:543) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-10 20:23:43.577 [restartedMain] INFO  annotation.RequestMappingHandlerMapping(AbstractHandlerMethodMapping.java:543) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-10 20:23:43.622 [restartedMain] INFO  handler.SimpleUrlHandlerMapping(AbstractUrlHandlerMapping.java:362) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-10 20:23:43.622 [restartedMain] INFO  handler.SimpleUrlHandlerMapping(AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-10 20:23:43.693 [restartedMain] INFO  handler.SimpleUrlHandlerMapping(AbstractUrlHandlerMapping.java:362) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-10 20:23:44.071 [restartedMain] INFO  autoconfigure.OptionalLiveReloadServer(OptionalLiveReloadServer.java:58) - LiveReload server is running on port 35729
+2018-07-10 20:23:44.181 [restartedMain] INFO  annotation.AnnotationMBeanExporter(MBeanExporter.java:431) - Registering beans for JMX exposure on startup
+2018-07-10 20:23:44.213 [restartedMain] INFO  http11.Http11NioProtocol(DirectJDKLog.java:179) - Initializing ProtocolHandler ["http-nio-127.0.0.1-8001"]
+2018-07-10 20:23:44.234 [restartedMain] INFO  http11.Http11NioProtocol(DirectJDKLog.java:179) - Starting ProtocolHandler ["http-nio-127.0.0.1-8001"]
+2018-07-10 20:23:44.260 [restartedMain] INFO  net.NioSelectorPool(DirectJDKLog.java:179) - Using a shared selector for servlet write/read
+2018-07-10 20:23:44.300 [restartedMain] INFO  tomcat.TomcatEmbeddedServletContainer(TomcatEmbeddedServletContainer.java:201) - Tomcat started on port(s): 8001 (http)
+2018-07-10 20:23:44.309 [restartedMain] INFO  mybatis.SpringBootMyBatisApplication(StartupInfoLogger.java:57) - Started SpringBootMyBatisApplication in 7.99 seconds (JVM running for 9.814)
+2018-07-10 20:23:54.929 [http-nio-127.0.0.1-8001-exec-1] INFO  [localhost].[/boot-mybatis](DirectJDKLog.java:179) - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-10 20:23:54.930 [http-nio-127.0.0.1-8001-exec-1] INFO  servlet.DispatcherServlet(FrameworkServlet.java:489) - FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-10 20:23:54.992 [http-nio-127.0.0.1-8001-exec-1] INFO  servlet.DispatcherServlet(FrameworkServlet.java:508) - FrameworkServlet 'dispatcherServlet': initialization completed in 61 ms
+2018-07-10 20:23:55.090 [http-nio-127.0.0.1-8001-exec-1] INFO  controller.UserController(UserController.java:36) - queryUser by id:1
+2018-07-10 20:24:03.417 [http-nio-127.0.0.1-8001-exec-2] INFO  controller.UserController(UserController.java:36) - queryUser by id:2
